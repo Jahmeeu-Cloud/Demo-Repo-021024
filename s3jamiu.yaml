@@ -1,0 +1,8 @@
+
+Resources:
+  S3B3FX9Q:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: jamiucft021024
+      VersioningConfiguration:
+        Status: Enabled  # or 'Suspended'
